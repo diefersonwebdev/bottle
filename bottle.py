@@ -15,9 +15,9 @@ def do_login():
     username = request.forms.get('username')
     password = request.forms.get('password')
     if check_login(username, password):
-        return "<p>Your login information was correct.</p>"
+        return "<p>Suas informações de login foi correta.</p>"
     else:
-        return "<p>Login failed.</p>"
+        return "<p>falha no login.</p>"
 
 run(host='localhost', port=8080, debug=True)
 
