@@ -1,6 +1,6 @@
 import os
 from bottle import get, post, request # or route
-#Aplicação Web em Desenvolvimento
+#Aplicação Web em Desenvolvimento para fins didáticos
 #Autor: Dieferson Soares
 @get('/login') # or @route('/login')
 def login():
