@@ -1,3 +1,6 @@
+#!usr/bin/env python3
+# -*- enconding: utf-8 -*-
+
 import os
 from bottle import get, post, request # or route
 #Aplicação Web em Desenvolvimento para fins didáticos
